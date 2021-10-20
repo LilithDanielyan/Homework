@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/LilitAndroidLessons/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/LilitAndroidLessons/app/src/main/res/font/julee.xml" value="0.20416666666666666" />
+        <entry key="..\:/LilitAndroidLessons/app/src/main/res/font/quicksand.xml" value="0.20416666666666666" />
+        <entry key="..\:/LilitAndroidLessons/app/src/main/res/font/simonetta.xml" value="0.20416666666666666" />
+        <entry key="..\:/LilitAndroidLessons/app/src/main/res/font/simonetta_black.xml" value="0.10364583333333334" />
+        <entry key="..\:/LilitAndroidLessons/app/src/main/res/font/simonetta_black_italic.xml" value="0.10364583333333334" />
+        <entry key="..\:/LilitAndroidLessons/app/src/main/res/font/simonetta_italic.xml" value="0.20416666666666666" />
+        <entry key="..\:/LilitAndroidLessons/app/src/main/res/layout/actitvity_layout.xml" value="0.1" />
+        <entry key="..\:/LilitAndroidLessons/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/LilitAndroidLessons/app/src/main/res/layout/second_activity.xml" value="0.25" />
       </map>
     </option>
   </component>
