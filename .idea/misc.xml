@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/LilitAndroidLessons/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/LilitAndroidLessons/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/LilitAndroidLessons/app/src/main/res/layout/homework_4.xml" value="0.165625" />
+        <entry key="..\:/LilitAndroidLessons/app/src/main/res/layout/homework_four.xml" value="0.22" />
         <entry key="..\:/LilitAndroidLessons/app/src/main/res/layout/second_activity.xml" value="0.1" />
       </map>
     </option>

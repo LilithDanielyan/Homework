@@ -3,5 +3,11 @@
    <string name="size1" translatable="false">18sp</string>
     <string name="Text1" tools:ignore="MissingTranslation" translatable="false">LessonTwo</string>
     <string name="Hayeren" translatable="false">Hello</string>
+    <string name="fourText1" tools:ignore="MissingTranslation">Text1</string>
+    <string name="fourText2" tools:ignore="MissingTranslation">Text2</string>
+    <string name="fourText3" tools:ignore="MissingTranslation">Text3</string>
+    <string name="fourText4" tools:ignore="MissingTranslation">Text4</string>
+
+
 
 </resources>
