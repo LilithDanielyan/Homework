@@ -1,6 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name" translatable="false">LessonTwo</string>
    <string name="size1" translatable="false">18sp</string>
-    <string name="Text1" tools:ignore="MissingTranslation">LessonTwo</string>
+    <string name="Text1" tools:ignore="MissingTranslation" translatable="false">LessonTwo</string>
+    <string name="Hayeren" translatable="false">Hello</string>
 
 </resources>
