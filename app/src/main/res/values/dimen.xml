@@ -2,5 +2,18 @@
 <resources>
     <dimen name="textSize1">32sp</dimen>
     <dimen name="textSize2">16sp</dimen>
+    <dimen name="textSize3">25sp</dimen>
+    <dimen name="distance">20dp</dimen>
+    <dimen name="distance2">60dp</dimen>
+    <dimen name="eighty">80dp</dimen>
+    <dimen name="five">5dp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="twenty">20dp</dimen>
+    <dimen name="fifteen">15sp</dimen>
+
+
+
+
+
 
 </resources>

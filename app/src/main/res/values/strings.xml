@@ -1,12 +1,24 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name" translatable="false">LessonTwo</string>
-   <string name="size1" translatable="false">18sp</string>
+    <string name="size1" translatable="false">18sp</string>
     <string name="Text1" tools:ignore="MissingTranslation" translatable="false">LessonTwo</string>
     <string name="Hayeren" translatable="false">Hello</string>
     <string name="fourText1" tools:ignore="MissingTranslation">Text1</string>
     <string name="fourText2" tools:ignore="MissingTranslation">Text2</string>
     <string name="fourText3" tools:ignore="MissingTranslation">Text3</string>
     <string name="fourText4" tools:ignore="MissingTranslation">Text4</string>
+    <string name="description" tools:ignore="MissingTranslation">DESCRIPTION</string>
+    <string name="text" tools:ignore="MissingTranslation">Souphattra Hotel located next to the UNESCO World Heritage town in Luang Prabang, Souphattra Hotel radiates all the understated elegance and charm of a colonial-era mansion, luxuriously appointed with refined furnishings throughout. Guests will enjoy its tranquil location, excellent facilities and authentic Lao hospitality.</string>
+    <string name="number" tools:ignore="MissingTranslation">+856 21211222</string>
+    <string name="NameLoc" tools:ignore="MissingTranslation">Luang Prabang, Laos</string>
+    <string name="CurrentPassword" tools:ignore="MissingTranslation">Current Password</string>
+    <string name="NewPassword" tools:ignore="MissingTranslation">New Password</string>
+    <string name="ConfirmPassword" tools:ignore="MissingTranslation">Confirm Password</string>
+    <string name="Save" tools:ignore="MissingTranslation">Save</string>
+    <string name="ChangePassword" tools:ignore="MissingTranslation">Change Password</string>
+
+
+
 
 
 

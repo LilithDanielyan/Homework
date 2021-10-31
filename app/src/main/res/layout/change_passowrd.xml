@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/koxpek"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/call"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/current_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/koxpek"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        android:text="@string/CurrentPassword"
+        android:layout_marginStart="@dimen/distance2"
+        android:layout_marginTop="@dimen/distance2"
+        android:layout_marginEnd="@dimen/eighty"
+        style="@style/passstyle"/>
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/distance2"
+        android:layout_marginEnd="@dimen/eighty"
+        android:layout_marginTop="@dimen/ten"
+        android:textSize="@dimen/textSize3"
+        app:layout_constraintTop_toBottomOf="@id/current_password"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/distance2"
+        android:layout_marginTop="@dimen/ten"
+        android:layout_marginEnd="@dimen/eighty"
+        style="@style/passstyle"
+        android:text="@string/NewPassword"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/distance2"
+        android:layout_marginEnd="@dimen/eighty"
+        android:layout_marginTop="@dimen/ten"
+        android:textSize="@dimen/textSize3"
+        app:layout_constraintTop_toBottomOf="@id/new_password"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ConfirmPassword"
+        android:layout_marginStart="@dimen/distance2"
+        android:layout_marginTop="@dimen/ten"
+        style="@style/passstyle"
+        app:layout_constraintTop_toBottomOf="@id/editText2"
+        app:layout_constraintStart_toStartOf="@id/editText2"
+        android:layout_marginEnd="@dimen/eighty"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/distance2"
+        android:layout_marginEnd="@dimen/eighty"
+        android:layout_marginTop="@dimen/ten"
+        android:textSize="@dimen/textSize3"
+        app:layout_constraintTop_toBottomOf="@id/confirm_password"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/distance2"
+        android:layout_marginEnd="@dimen/eighty"
+        android:layout_marginTop="@dimen/twenty"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/blue"
+        android:text="@string/Save"
+        android:textColor="@color/white"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
